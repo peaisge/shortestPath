@@ -1,7 +1,6 @@
 A makefile is used to compile all programs, either individually or at once with the make command.
 
 dijkstra
-
 Naive version of Dijkstra's algorithm as a sequential code
 To run the script with one of the rscp files, type "./dijkstra rcspX.txt"
     NB: If you do not provide the argument rscp.txt, the script runs on a default graph that we created in the file Graph.cpp
