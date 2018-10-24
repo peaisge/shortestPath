@@ -26,8 +26,7 @@ To run the script on N cores, type "mpirun -np N ./dijkstra_opti_p rcspX.txt"
 k_shortest
 Method for finding the k shortest paths as a sequential code
 To run the script and print the j shortest paths, type "./k_shortest j rcspX.txt"
-    NB: Do not chose j excessively large: the scripts does not handle the case where 
-    there are less than j paths between the vertices s and t
+    NB: Do not chose j excessively large: the scripts does not handle the case where there are less than j paths between the vertices s and t
 
 k_shortest_p
 Method for finding the k shortest paths as a parallelised code
